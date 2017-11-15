@@ -145,7 +145,7 @@ call s:hi('Search', s:white, s:sblue)
 call s:hi('Visual', s:white, s:sblue)
 
 " Tildes at the bottom of a buffer, etc.
-call s:hi('NonText', s:dgray)
+call s:hi('NonText', s:sblue)
 
 " File browsers.
 call s:hi('Directory', s:white, s:default_bg, s:bold)
