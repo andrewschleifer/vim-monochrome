@@ -72,7 +72,7 @@ call s:hi('Normal')
 call s:hi('Cursor', s:black, s:lgray)
 
 " Cursor line.
-call s:hi('CursorLine', s:default_lst, s:bgray, s:default_str)
+call s:hi('CursorLine', s:default_lst, s:bgray, s:none)
 call s:hi('CursorLineNr', s:white, s:default_bg, s:bold)
 
 " Color column.
