@@ -86,7 +86,7 @@ call s:hi('Folded')
 call s:hi('LineNr', s:dgray)
 
 " Small arrow used for tabs.
-call s:hi('SpecialKey', s:default_fg, s:default_bg, s:bold)
+call s:hi('SpecialKey', s:cgray, s:default_bg, s:bold)
 
 " Main groups for programming languages.
 call s:hi('Statement', s:white, s:default_bg, s:bold)
