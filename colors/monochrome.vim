@@ -71,17 +71,14 @@ call s:hi('Cursor', s:black, s:lgray)
 call s:hi('CursorLine', s:default_lst, s:bgray, s:none)
 call s:hi('CursorLineNr', s:white, s:default_bg, s:bold)
 
-" Color column.
-call s:hi('ColorColumn', s:default_fg, s:bgray)
-
-" Folding.
-call s:hi('FoldColumn', s:dgray)
+" Gutter.
+call s:hi('FoldColumn', s:dgray, s:black)
 call s:hi('Folded')
+call s:hi('LineNr', s:dgray, s:black)
+call s:hi('SignColumn', s:dgray, s:black)
 
-" Line numbers gutter.
-call s:hi('LineNr', s:dgray)
-
-" Small arrow used for tabs.
+" Other characters.
+call s:hi('NonText', s:bgray)
 call s:hi('SpecialKey', s:cgray, s:default_bg, s:bold)
 
 " Main groups for programming languages.
@@ -139,9 +136,6 @@ call s:hi('vimCommentTitle', s:cgray)
 " Search.
 call s:hi('Search', s:white, s:sblue)
 call s:hi('Visual', s:white, s:sblue)
-
-" Tildes at the bottom of a buffer, etc.
-call s:hi('NonText', s:sblue)
 
 " File browsers.
 call s:hi('Directory', s:white, s:default_bg, s:bold)
