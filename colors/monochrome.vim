@@ -68,6 +68,7 @@ call s:hi('Normal')
 call s:hi('Cursor')
 
 " Cursor line.
+call s:hi('Cursor', s:black, s:white)
 call s:hi('CursorLine', s:default_lst, s:black, s:none)
 call s:hi('CursorLineNr', s:dgray, s:black, s:bold)
 
