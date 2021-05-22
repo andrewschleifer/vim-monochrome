@@ -1,9 +1,3 @@
-" Vim color scheme
-"
-" Name:       monochrome.vim
-" Maintainer: Xavier Noria <fxn@hashref.com>
-" License:    MIT
-
 set background=dark
 
 hi clear
