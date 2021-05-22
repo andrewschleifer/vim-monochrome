@@ -1,6 +1,6 @@
-## monochrome - A dark Vim color scheme for your focused hacking sessions
+# monochrome
 
-### Look & Feel
+## Look & Feel
 
 <p align="center">
 <img alt="Monochrome Vim color scheme" src="img/vim-monochrome.jpg"/>
@@ -8,7 +8,7 @@
 
 Works in GUI/true-color terminals, as well as 256-color terminals.
 
-### Configuration
+## Configuration
 
 Just throw this to your _~/.vimrc_:
 
