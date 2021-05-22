@@ -65,11 +65,11 @@ endfunction
 
 " Basic colors.
 call s:hi('Normal')
-call s:hi('Cursor', s:black, s:lgray)
+call s:hi('Cursor')
 
 " Cursor line.
-call s:hi('CursorLine', s:default_lst, s:bgray, s:none)
-call s:hi('CursorLineNr', s:white, s:default_bg, s:bold)
+call s:hi('CursorLine', s:default_lst, s:black, s:none)
+call s:hi('CursorLineNr', s:dgray, s:black, s:bold)
 
 " Gutter.
 call s:hi('FoldColumn', s:dgray, s:black)
@@ -82,16 +82,16 @@ call s:hi('NonText', s:bgray)
 call s:hi('SpecialKey', s:cgray, s:default_bg, s:bold)
 
 " Main groups for programming languages.
-call s:hi('Statement', s:white, s:default_bg, s:bold)
-call s:hi('PreProc', s:white, s:default_bg, s:bold)
+call s:hi('Statement', s:default_fg)
+call s:hi('PreProc', s:default_fg)
 call s:hi('String', s:sblue)
 call s:hi('Comment', s:cgray, s:default_bg, s:comment_attr)
-call s:hi('Constant')
-call s:hi('Type', s:white, s:default_bg, s:bold)
-call s:hi('Function', s:white)
-call s:hi('Identifier')
-call s:hi('Special')
-call s:hi('MatchParen', s:black, s:lgray)
+call s:hi('Constant', s:default_fg)
+call s:hi('Type', s:default_fg)
+call s:hi('Function', s:default_fg)
+call s:hi('Identifier', s:default_fg)
+call s:hi('Special', s:default_fg)
+call s:hi('MatchParen', s:default_fg)
 
 " Ruby.
 call s:hi('rubyConstant')
